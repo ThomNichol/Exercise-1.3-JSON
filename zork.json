@@ -116,7 +116,7 @@
           "original": "[[SOUTH->Forest]]",
           "label": "SOUTH",
           "newPassage": "Forest",
-          "pid": "4",
+          "pid": "9",
           "selection": "3"
         },
         {
@@ -242,6 +242,43 @@
         }
       ],
       "text": "You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach. Beside you on the branch is a small bird's nest."
+    },
+    {
+      "name": "Forest",
+      "tags": "",
+      "pid": "9",
+      "original": "This is a forest, with trees in all directions around you.\n\n[[NORTH->Sunlit Forest]]\n[[EAST->Forest]]\n[[SOUTH->Forest]]\n[[WEST->Forest]]",
+      "links": [
+        {
+          "original": "[[NORTH->Sunlit Forest]]",
+          "label": "NORTH",
+          "newPassage": "Sunlit Forest",
+          "pid": "6",
+          "selection": "1"
+        },
+        {
+          "original": "[[EAST->Forest]]",
+          "label": "EAST",
+          "newPassage": "Forest",
+          "pid": "4",
+          "selection": "2"
+        },
+        {
+          "original": "[[SOUTH->Forest]]",
+          "label": "SOUTH",
+          "newPassage": "Forest",
+          "pid": "4",
+          "selection": "3"
+        },
+        {
+          "original": "[[WEST->Forest]]",
+          "label": "WEST",
+          "newPassage": "Forest",
+          "pid": "4",
+          "selection": "4"
+        }
+      ],
+      "text": "This is a forest, with trees in all directions around you."
     }
   ]
 }
